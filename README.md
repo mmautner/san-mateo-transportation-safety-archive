@@ -9,7 +9,7 @@ Every morning at 8:17am Pacific, the workflow:
 1. Fetches the page and converts the main body into clean Markdown (`page.md`): headings, paragraphs, list items, and links kept as `[text](url)`. Navigation, footer, slideshow, scripts and styling are dropped, so cosmetic edits to the site template don't trigger alerts.
 2. Saves the page's internal CivicPlus version number to `version.txt`.
 3. Commits both files if anything changed.
-4. If `page.md` changed, opens a GitHub issue containing the diff. GitHub emails you about new issues in repos you own, so the issue is the notification.
+4. If `page.md` changed, opens a GitHub issue containing the diff and assigns it to the repo owner. Being assigned counts as "participating," which GitHub emails you about by default, so the issue is the notification.
 
 The diff marks changes inline, for example:
 
@@ -30,7 +30,7 @@ The commit history becomes a dated record of everything the page has said, which
    ```
 3. Make sure Issues are enabled (Settings > General > Features; on by default).
 4. Go to the Actions tab, select "Watch Transportation Safety page," and click **Run workflow**. This first run saves the baseline snapshot and does not open an issue.
-5. Confirm you're getting email for issues: Settings > Notifications on your GitHub account should have email enabled for "Watching," and your own new repos are watched by default.
+5. Confirm you're getting email for assignments: in your GitHub account's Settings > Notifications, "Participating, @mentions and custom" should have Email checked (it is by default).
 
 ## What triggers an email
 

@@ -60,5 +60,5 @@ jobs:
               cat /tmp/diff.txt
               echo '```'
             } > /tmp/body.md
-            gh issue create --title "Transportation Safety page changed $(date -u +%F)" --body-file /tmp/body.md
+            gh issue create --title "Transportation Safety page changed $(date -u +%F)" --body-file /tmp/body.md --assignee "${{ github.repository_owner }}"
           fi
