@@ -1,0 +1,64 @@
+name: Watch Transportation Safety page
+
+on:
+  schedule:
+    - cron: "17 15 * * *"  # 8:17am PDT / 7:17am PST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install beautifulsoup4==4.12.3
+
+      - run: python watch.py
+
+      # Scheduled workflows in public repos are disabled after 60 days without
+      # repo activity, so commit something once a month.
+      - name: Monthly heartbeat
+        if: github.event_name == 'schedule'
+        run: |
+          if [ "$(date -u +%d)" = "01" ]; then date -u +%F > .heartbeat; fi
+
+      - name: Commit snapshot and open an issue if the content changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "page-watch"
+          git config user.email "page-watch@users.noreply.github.com"
+          git add page.md version.txt
+          if [ -f .heartbeat ]; then git add .heartbeat; fi
+          if git diff --cached --quiet; then echo "No change."; exit 0; fi
+
+          NOTIFY=0
+          if git cat-file -e HEAD:page.md 2>/dev/null && ! git diff --cached --quiet -- page.md; then
+            NOTIFY=1
+            git diff --cached --word-diff=plain -U1 -- page.md | tail -n +5 | head -c 60000 > /tmp/diff.txt
+          fi
+
+          git commit -q -m "Snapshot $(date -u +%F)"
+          git push -q
+
+          if [ "$NOTIFY" = 1 ]; then
+            {
+              echo "Changes detected on https://www.cityofsanmateo.org/4727/Transportation-Safety"
+              echo
+              echo "Commit: ${{ github.server_url }}/${{ github.repository }}/commit/$(git rev-parse HEAD)"
+              echo
+              echo "[-removed-] {+added+}"
+              echo '```'
+              cat /tmp/diff.txt
+              echo '```'
+            } > /tmp/body.md
+            gh issue create --title "Transportation Safety page changed $(date -u +%F)" --body-file /tmp/body.md
+          fi
