@@ -1,5 +1,7 @@
 # San Mateo Transportation Safety page watch
 
+[![Watch Transportation Safety page](https://github.com/mmautner/san-mateo-transportation-safety-archive/actions/workflows/watch.yml/badge.svg)](https://github.com/mmautner/san-mateo-transportation-safety-archive/actions/workflows/watch.yml)
+
 Checks the City of San Mateo's [Transportation Safety page](https://www.cityofsanmateo.org/4727/Transportation-Safety) once a day and emails you a word-level diff whenever its content changes. It runs on GitHub Actions, costs nothing in a public repo, and has no AI or third-party service in the loop.
 
 ## How it works
