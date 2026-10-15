@@ -25,6 +25,29 @@ Learn more about the [Local Roadway Safety Plan](http://www.cityofsanmateo.org/S
 ## More Safety-Related Transportation Projects
 Reduced School Zone Speed Limits – Implemented
 The City strives to create a safer environment around schools for students by promoting safe driving near schools and reducing speed limits. Through this project, speed limits near schools will be reduced to 15 miles per hour when children are present. Find out where the speed limits are reduced and how you can help promote safety near schools on our [Slow for Students webpage](https://www.cityofsanmateo.org/4715/Slow-for-Students).
+
+### Alameda de las Pulgas Quick-Build Safety Improvements
+Project Update
+The City is installing quick-build safety improvements at four intersections on Alameda de las Pulgas: Nevada Avenue, Kentucky Avenue, Aragon Boulevard, and Hobart Avenue. Work is underway to make these crossings safer for all users.
+Quick-build projects prioritize rapid implementation of low-cost safety improvements with flexibility to make adjustments based on how they work and community feedback.
+Work Dates: Mid-October through early November 2026.
+Why We Are Doing This
+The intersections along Alameda de las Pulgas at these four locations are used daily by pedestrians and have been under consideration by the City for potential safety improvements. At the September 22, 2026, City Council meeting, community members and Council Members asked for safer crossings near Aragon High School.
+What We Are Adding
+Alameda de las Pulgas and Nevada Avenue, Kentucky Avenue, Aragon Boulevard
+- Exclusive East-West Pedestrian Phase: All vehicles stop while people cross Alameda de las Pulgas. No cars are turning at the same time.
+- No Right Turn on Red: Drivers wait for the green light before turning right. This keeps the crosswalk clear.
+- Centerline Hardening: Curbs and posts on the centerline slow left turns and tighten turning paths
+- Red Curb: No parking is allowed at red curbs. Helps drivers see pedestrians who are about to cross
+Alameda de las Pulgas and Hobart Avenue
+- Red Curb: No parking is allowed at red curbs. Helps drivers see pedestrians who are about to cross
+- New Crossing Signs: Alert vehicles to pedestrians
+- New Road Markings: Remind vehicles to yield to people in the crosswalk
+What to Expect
+- Crews will be working near Aragon High School. Please slow down and watch for them.
+- At Nevada Avenue, Kentucky Avenue, and Aragon Boulevard, you can no longer turn right on red.
+- You may wait a little longer at the traffic signals while people cross. Please plan extra time.
+---------------------------------------------------------------
 Alameda de las Pulgas Corridor – Phased Safety Improvements
 Staff are implementing a phased series of safety improvements along the Alameda de las Pulgas corridor, as follows:
 - Immediate Term:
