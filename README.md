@@ -2,7 +2,7 @@
 
 [![Watch Transportation Safety page](https://github.com/mmautner/san-mateo-transportation-safety-archive/actions/workflows/watch.yml/badge.svg)](https://github.com/mmautner/san-mateo-transportation-safety-archive/actions/workflows/watch.yml)
 
-Checks the City of San Mateo's [Transportation Safety page](https://www.cityofsanmateo.org/4727/Transportation-Safety) once a day and emails you a word-level diff whenever its content changes. It runs on GitHub Actions, costs nothing in a public repo, and has no AI or third-party service in the loop.
+Checks the City of San Mateo's [Transportation Safety page](https://www.cityofsanmateo.org/4727/Transportation-Safety) once a day and emails you a readable summary of what changed whenever its content changes. It runs on GitHub Actions, costs nothing in a public repo, and has no AI or third-party service in the loop.
 
 ## How it works
 
@@ -11,13 +11,14 @@ Every morning at 8:17am Pacific, the workflow:
 1. Fetches the page and converts the main body into clean Markdown (`page.md`): headings, paragraphs, list items, and links kept as `[text](url)`. Navigation, footer, slideshow, scripts and styling are dropped, so cosmetic edits to the site template don't trigger alerts.
 2. Saves the page's internal CivicPlus version number to `version.txt`.
 3. Commits both files if anything changed.
-4. If `page.md` changed, opens a GitHub issue containing the diff and assigns it to the repo owner. Being assigned counts as "participating," which GitHub emails you about by default, so the issue is the notification.
+4. If `page.md` changed, opens a GitHub issue listing what changed (built by `changes.py`) and assigns it to the repo owner. Being assigned counts as "participating," which GitHub emails you about by default, so the issue is the notification.
 
-The diff marks changes inline, for example:
+The issue title names the sections that changed, and the body lists each added, removed, or edited line under the heading it falls in. Within an edited line, removed words are struck through and added words are bold, for example:
 
-```
-...award anticipated in [-early December.-]{+mid-January.+}
-```
+> ### Street Rehabilitation Supporting Safety
+> - <b>Changed:</b> … award anticipated in <del>early December</del><b>mid-January 2027</b>.
+
+Long unchanged stretches are shortened to "…", with the full before/after text in a collapsed section at the end of the issue.
 
 The commit history becomes a dated record of everything the page has said, which is useful for holding the City to stated timelines.
 
@@ -27,6 +28,7 @@ The commit history becomes a dated record of everything the page has said, which
 2. Add the files from this ZIP, keeping the folder layout:
    ```
    watch.py
+   changes.py
    .github/workflows/watch.yml
    README.md
    ```
@@ -38,7 +40,7 @@ The commit history becomes a dated record of everything the page has said, which
 
 | Event | Commit | Issue / email |
 |---|---|---|
-| Page text, links, or headings change | Yes | Yes, with diff |
+| Page text, links, or headings change | Yes | Yes, with a summary of changes |
 | Only formatting changes (version number bumps, text identical) | Yes | No |
 | Nothing changes | No | No |
 | Page fails to load or parses to almost nothing (redesign, block, outage) | No | GitHub's failed-run email |

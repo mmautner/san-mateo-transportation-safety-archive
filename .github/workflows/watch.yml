@@ -43,7 +43,9 @@ jobs:
           NOTIFY=0
           if git cat-file -e HEAD:page.md 2>/dev/null && ! git diff --cached --quiet -- page.md; then
             NOTIFY=1
-            git diff --cached --word-diff=plain -U1 -- page.md | tail -n +5 | head -c 60000 > /tmp/diff.txt
+            git show HEAD:page.md > /tmp/old.md
+            python changes.py /tmp/old.md page.md > /tmp/changes.md
+            python changes.py /tmp/old.md page.md --title > /tmp/title.txt
           fi
 
           git commit -q -m "Snapshot $(date -u +%F)"
@@ -55,10 +57,9 @@ jobs:
               echo
               echo "Commit: ${{ github.server_url }}/${{ github.repository }}/commit/$(git rev-parse HEAD)"
               echo
-              echo "[-removed-] {+added+}"
-              echo '```'
-              cat /tmp/diff.txt
-              echo '```'
+              echo "Removed text is <del>struck through</del>; added text is <b>bold</b>."
+              echo
+              cat /tmp/changes.md
             } > /tmp/body.md
-            gh issue create --title "Transportation Safety page changed $(date -u +%F)" --body-file /tmp/body.md --assignee "${{ github.repository_owner }}"
+            gh issue create --title "Transportation Safety page changed $(date -u +%F): $(cat /tmp/title.txt)" --body-file /tmp/body.md --assignee "${{ github.repository_owner }}"
           fi
