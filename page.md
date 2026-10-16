@@ -26,20 +26,23 @@ Learn more about the [Local Roadway Safety Plan](http://www.cityofsanmateo.org/S
 Reduced School Zone Speed Limits – Implemented
 The City strives to create a safer environment around schools for students by promoting safe driving near schools and reducing speed limits. Through this project, speed limits near schools will be reduced to 15 miles per hour when children are present. Find out where the speed limits are reduced and how you can help promote safety near schools on our [Slow for Students webpage](https://www.cityofsanmateo.org/4715/Slow-for-Students).
 
-### Alameda de las Pulgas Quick-Build Safety Improvements
+### Alameda de las Pulgas Quick-Build Safety Improvements - Fall 2026
 Project Update
-The City is installing quick-build safety improvements at four intersections on Alameda de las Pulgas: Nevada Avenue, Kentucky Avenue, Aragon Boulevard, and Hobart Avenue. Work is underway to make these crossings safer for all users.
+The City is installing quick-build safety improvements at four intersections on Alameda de las Pulgas to make these crossings safer for all users:
+- At Aragon Boulevard and Hobart Avenue work is complete as of October 15, 2026.
+- At Nevada Avenue and Kentucky Avenue, work is underway.
 Quick-build projects prioritize rapid implementation of low-cost safety improvements with flexibility to make adjustments based on how they work and community feedback.
 Work Dates: Mid-October through early November 2026.
 Why We Are Doing This
 The intersections along Alameda de las Pulgas at these four locations are used daily by pedestrians and have been under consideration by the City for potential safety improvements. At the September 22, 2026, City Council meeting, community members and Council Members asked for safer crossings near Aragon High School.
 What We Are Adding
 Alameda de las Pulgas and Nevada Avenue, Kentucky Avenue, Aragon Boulevard
+These improvements are in progress at Nevada Avenue and Kentucky Avenue, and complete at Aragon Boulevard.
 - Exclusive East-West Pedestrian Phase: All vehicles stop while people cross Alameda de las Pulgas. No cars are turning at the same time.
 - No Right Turn on Red: Drivers wait for the green light before turning right. This keeps the crosswalk clear.
 - Centerline Hardening: Curbs and posts on the centerline slow left turns and tighten turning paths
 - Red Curb: No parking is allowed at red curbs. Helps drivers see pedestrians who are about to cross
-Alameda de las Pulgas and Hobart Avenue
+Alameda de las Pulgas and Hobart Avenue - Completed
 - Red Curb: No parking is allowed at red curbs. Helps drivers see pedestrians who are about to cross
 - New Crossing Signs: Alert vehicles to pedestrians
 - New Road Markings: Remind vehicles to yield to people in the crosswalk
@@ -47,14 +50,13 @@ What to Expect
 - Crews will be working near Aragon High School. Please slow down and watch for them.
 - At Nevada Avenue, Kentucky Avenue, and Aragon Boulevard, you can no longer turn right on red.
 - You may wait a little longer at the traffic signals while people cross. Please plan extra time.
----------------------------------------------------------------
 Alameda de las Pulgas Corridor – Phased Safety Improvements
 Staff are implementing a phased series of safety improvements along the Alameda de las Pulgas corridor, as follows:
 - Immediate Term:
   - 31st Avenue Safe Routes to School Corridor Improvements: Traffic calming improvements are planned on 31st Avenue in front of Hillsdale High School, along with signalization and other intersection safety improvements at 31st & Alameda de las Pulgas. Design consultant selection is currently underway.
   - [Hillsdale Boulevard & Alameda de las Pulgas Intersection Safety Improvements:](https://www.cityofsanmateo.org/4768/Hillsdale-Blvd-Alameda-de-las-Pulgas-Tra) This project will install a new traffic signal, protected bike lane facilities, and updated pedestrian ramps to enhance safety for all users and reduce congestion through the intersection. The project is currently out to bid, with award anticipated in mid-November and construction expected to be completed in 2027.
-  - Alameda and Hobart Crosswalk Improvement [Quick-Build]: Signage and yield pavement markings will be installed at Alameda de las Pulgas & Hobart Street to improve existing crosswalk visibility. Estimated completion end of 2026.
-  - Alameda and Aragon Analysis [Quick-Build]: The City is conducting an accelerated review of the Alameda de las Pulgas & Aragon Boulevard intersection to evaluate potential near-term enhancements. As part of this effort, staff is looking at options such as roadway markings, centerline delineation and signage that could be implemented within the Quick-Build program guidelines of under 6 months. Where existing traffic signal equipment allows, staff will also evaluate possible changes to signal operations that could separate pedestrian and vehicle movements at the intersection. The evaluation will be completed over the next 2 months, with installation completed within a 6-month period. Visit this website for updates as the project progresses.
+  - Alameda and Hobart Crosswalk Improvement [Quick-Build]: Signage and yield pavement markings will be installed at Alameda de las Pulgas & Hobart Street to improve existing crosswalk visibility. See the above section: Alameda de las Pulgas Quick-Build Safety Improvements - Fall 2026 for current updates.
+  - Alameda and Aragon Analysis [Quick-Build]: The City is conducting an accelerated review of the Alameda de las Pulgas & Aragon Boulevard intersection to evaluate potential near-term enhancements. As part of this effort, staff is looking at options such as roadway markings, centerline delineation and signage that could be implemented within the Quick-Build program guidelines of under 6 months. Where existing traffic signal equipment allows, staff will also evaluate possible changes to signal operations that could separate pedestrian and vehicle movements at the intersection. See the above section: Alameda de las Pulgas Quick-Build Safety Improvements - Fall 2026 for current updates.
   - Signalized Intersections North of Barneson Ave [Quick-Build]: The City is also reviewing other signalized intersections along Alameda de las Pulgas north of Barneson Avenue for potential changes, similar to those proposed at Alameda and Aragon described above. Following evaluation, the City would aim to deliver these improvements within the Quick-Build program guidelines of under 6 months. More extensive signal improvements, such as dedicated left turns or pedestrian signal heads, would be considered as part of future capital improvement projects rather than as part of the quick build program, if warranted
 - Medium Term:
   - Alameda and Barneson Intersection Safety Improvement: An Intersection Multimodal Safety Improvement Project is planned at Barneson Avenue & Alameda de las Pulgas. This will include the installation of a new traffic signal and pedestrian-focused improvements. Funding for design has been requested for fiscal year 2027-2028 CIP budget.
