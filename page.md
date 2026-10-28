@@ -28,28 +28,28 @@ The City strives to create a safer environment around schools for students by pr
 
 ### Alameda de las Pulgas Quick-Build Safety Improvements - Fall 2026
 Project Update
-The City is installing quick-build safety improvements at four intersections on Alameda de las Pulgas to make these crossings safer for all users:
-- At Aragon Boulevard and Hobart Avenue work is complete as of October 15, 2026.
-- At Nevada Avenue and Kentucky Avenue, work is underway.
+As of October 2026, the City has completed installation of quick-build safety improvements at four intersections on Alameda de las Pulgas to make these crossings safer for all users:
+- Alameda de las Pulgas and Aragon Boulevard
+- Alameda de las Pulgas and Hobart Avenue
+- Alameda de las Pulgas and Nevada Avenue
+- Alameda de las Pulgas and Kentucky Avenue
 Quick-build projects prioritize rapid implementation of low-cost safety improvements with flexibility to make adjustments based on how they work and community feedback.
-Work Dates: Mid-October through early November 2026.
-Why We Are Doing This
-The intersections along Alameda de las Pulgas at these four locations are used daily by pedestrians and have been under consideration by the City for potential safety improvements. At the September 22, 2026, City Council meeting, community members and Council Members asked for safer crossings near Aragon High School.
-What We Are Adding
+What We Added
 Alameda de las Pulgas and Nevada Avenue, Kentucky Avenue, Aragon Boulevard
-These improvements are in progress at Nevada Avenue and Kentucky Avenue, and complete at Aragon Boulevard.
-- Exclusive East-West Pedestrian Phase: All vehicles stop while people cross Alameda de las Pulgas. No cars are turning at the same time.
+These improvements have been completed at all three locations:
+- Exclusive East-West Pedestrian Phase: All vehicles stop while people cross Alameda de las Pulgas.
 - No Right Turn on Red: Drivers wait for the green light before turning right. This keeps the crosswalk clear.
-- Centerline Hardening: Curbs and posts on the centerline slow left turns and tighten turning paths
-- Red Curb: No parking is allowed at red curbs. Helps drivers see pedestrians who are about to cross
-Alameda de las Pulgas and Hobart Avenue - Completed
-- Red Curb: No parking is allowed at red curbs. Helps drivers see pedestrians who are about to cross
-- New Crossing Signs: Alert vehicles to pedestrians
-- New Road Markings: Remind vehicles to yield to people in the crosswalk
+- Centerline Hardening: Curbs and posts on the centerline slow left turns and tighten turning paths.
+- Red Curb: No parking is allowed at red curbs. Helps drivers see pedestrians who are about to cross.
+Alameda de las Pulgas and Hobart Avenue
+- Red Curb: No parking is allowed at red curbs. Helps drivers see pedestrians who are about to cross.
+- New Crossing Signs: Alert vehicles to pedestrians.
+- New Road Markings: Remind vehicles to yield to people in the crosswalk.
 What to Expect
-- Crews will be working near Aragon High School. Please slow down and watch for them.
-- At Nevada Avenue, Kentucky Avenue, and Aragon Boulevard, you can no longer turn right on red.
+- At Nevada Avenue, Kentucky Avenue, and Aragon Boulevard, right turns are no longer permitted.
 - You may wait a little longer at the traffic signals while people cross. Please plan extra time.
+Tell Us What You Think
+We want to hear how the changes are working. Share your feedback through [My San Mateo.](https://www.cityofsanmateo.org/4940/My-San-Mateo---Online-Service-Request-Po) Select the “Traffic Engineering” category, then “Intersection Safety Concern.”
 Alameda de las Pulgas Corridor – Phased Safety Improvements
 Staff are implementing a phased series of safety improvements along the Alameda de las Pulgas corridor, as follows:
 - Immediate Term:
